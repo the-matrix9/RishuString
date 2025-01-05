@@ -109,9 +109,9 @@ async def start_message(client, message):
 
     # Inline buttons for channel join and help
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
-    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Ur_rishu_143")
-    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://t.me/vip_robotz")
+    join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz/4")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
+    repo_button = InlineKeyboardButton("˹ ʀєᴘσ ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton(" ˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
@@ -163,7 +163,7 @@ async def help_callback(client, callback_query: CallbackQuery):
         [back_button]
     ])
 
-    help_message = "💡<blockquote>**ʜᴇʀᴇ ɪs ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴛᴏᴏʟs ᴍᴇᴛʜᴏᴅ.**</blockquote>\n\n**☞︎︎︎ ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ʟɪʙʀᴀʀʏ **\n\n**➻ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ**"
+    help_message = "💡**ʜᴇʀᴇ ɪs ᴛʜᴇ ᴛᴇʟᴇɢʀᴀᴍ ᴛᴏᴏʟs ᴍᴇᴛʜᴏᴅ.**\n\n**☞︎︎︎ ᴘʟᴇᴀsᴇ ᴄʜᴏᴏsᴇ ᴛʜᴇ ʟɪʙʀᴀʀʏ **\n\n**➻ʏᴏᴜ ᴡᴀɴᴛ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ sᴛʀɪɴɢ sᴇssɪᴏɴ**"
     await callback_query.message.edit_text(
         help_message,
         reply_markup=markup
@@ -184,8 +184,8 @@ async def back_to_welcome(client, callback_query: CallbackQuery):
 
     join_button_1 = InlineKeyboardButton("˹sυᴘᴘσꝛᴛ˼", url="https://t.me/Ur_rishu_143")
     join_button_2 = InlineKeyboardButton("˹ᴧʟʟ ʙσᴛ˼", url="https://t.me/vip_robotz")
-    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/Ur_rishu_143")
-    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://t.me/vip_robotz")
+    music_button = InlineKeyboardButton("˹ϻυsɪᴄ ʙσᴛ˼", url="https://t.me/vip_music_vc_bot")
+    repo_button = InlineKeyboardButton("˹ʀєᴘσ˼", url="https://github.com/RishuBot/RishuString")
     help_button = InlineKeyboardButton("˹ ɢєηєꝛᴧᴛє sᴛꝛɪηɢ ˼", callback_data="help_section")
 
     markup = InlineKeyboardMarkup([[help_button],[join_button_1,join_button_2],[music_button,repo_button]])
