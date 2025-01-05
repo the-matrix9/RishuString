@@ -25,7 +25,7 @@ from typing import Optional
 import random
 
 # Bot details from environment variables
-BOT_TOKEN = "Your bot token " #Your bot token 
+BOT_TOKEN = os.getenv("BOT_TOKEN")  # Environment variable se token le raha hai #Your bot token 
 CHANNEL_1_USERNAME = "Ur_Rishu_143"  # First channel username
 CHANNEL_2_USERNAME = "bot_maker1437"  # Second channel username
 API_HASH = "42a60d9c657b106370c79bb0a8ac560c"
