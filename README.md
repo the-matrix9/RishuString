@@ -26,8 +26,6 @@
 
 <p><img width="494" align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=RishuBot&show_icons=true&locale=en&layout=compact" alt="RishuBot" /></p>
 
-[![Deploy to Koyeb](https://raw.githubusercontent.com/rishubot/rishustring/main/assets/button.svg)](https://app.koyeb.com/deploy?name=rishustring&repository=RishuBot%2FRishuString&branch=main&run_command=python+main.py&instance_type=free&env%5BBOT_TOKEN%5D=&ports=8080%3Bhttp%3B%2F&hc_protocol%5B8080%5D=tcp&hc_grace_period%5B8080%5D=5&hc_interval%5B8080%5D=30&hc_restart_limit%5B8080%5D=3&hc_timeout%5B8080%5D=5&hc_path%5B8080%5D=%2F&hc_method%5B8080%5D=get)
-
 
 
 
